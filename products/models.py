@@ -8,3 +8,4 @@ class Product(models.Model):
     summary     = models.TextField(default='This is cool')
 
 
+  
