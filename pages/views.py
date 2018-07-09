@@ -15,6 +15,6 @@ def contact_view(request, *args, **kwargs):
 def about_view(request, *args, **kwargs):
     my_context = {
         "my_text": "this is about us",
-        "my number": 123
+        "my_number": 123
     }
     return render(request, "about.html", my_context)
