@@ -10,4 +10,11 @@ def home_view(request, *args, **kwargs):
 
 def contact_view(request, *args, **kwargs):
     print(request.user)
-    return render(request, "contact.html")                                                                                                               
+    return render(request, "contact.html") 
+
+def about_view(request, *args, **kwargs):
+    my_context = {
+        "my_text": "this is about us",
+        "my number": 123
+    }
+    return render(request, "about.html", my_context)
