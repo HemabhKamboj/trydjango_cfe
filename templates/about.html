@@ -7,7 +7,7 @@
 
 
 <p>
-    {{ my_text }}, {{my_number }}
+    {{ my_text }},my number = {{my_number }}
 </p>
 
 <ul>
@@ -16,8 +16,13 @@
 <li> item3</li>
 </ul>
 
+{% if my_number == 123  %}
 <ul> 
     {% for my_sub_item in my_list %}
     <li> {{forloop.counter}}- {{ my_sub_item}} </li>
     {% endfor %}
+{% else %}
+my number is not 123.
+
+{% endif %}
 {% endblock %}
