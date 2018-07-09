@@ -13,6 +13,7 @@ def contact_view(request, *args, **kwargs):
     return render(request, "contact.html") 
 
 def about_view(request, *args, **kwargs):
+    print(request.user)
     my_context = {
         "my_text": "this is about us",
         "my_number": 123
