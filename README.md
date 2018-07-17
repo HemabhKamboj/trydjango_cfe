@@ -3,4 +3,4 @@
 
 ## https://www.youtube.com/playlist?list=PLEsfXFp6DpzTD1BD1aWNxS2Ep06vIkaeW
 
-Prefers django 2.0.7
+Requires django 2.0.7
