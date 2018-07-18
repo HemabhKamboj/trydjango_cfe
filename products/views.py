@@ -43,7 +43,7 @@ def render_initial_data(request):
 #         # Product.objects.create(title=my_new_title)
 #     context = {}
 #     return render(request, "products/product_create.html", context)
-
+#
 
 def product_create_view(request):
     form = ProductForm(request.POST or None)
