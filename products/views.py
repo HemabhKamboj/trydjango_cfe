@@ -33,7 +33,7 @@ def render_initial_data(request):
 #         "form": my_form
 #     }
 #     return render(request, "products/product_create.html", context)
-
+#
 
 
 def product_create_view(request):
